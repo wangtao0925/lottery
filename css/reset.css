@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-tap-highlight-color: transparent;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #efefef;
+}
+.clearfix:after {
+    content:".";
+    display:block;
+    height:0;
+    line-height:0;
+    visibility:hidden;
+    clear:both;
+}
+.clearfix {
+    *zoom:1;
+}
+a {
+    text-decoration: none;
+}
+.fl {
+    float: left;
+}
+.fr {
+    float: right;
+}
+input,textarea,button,select {
+    border:none;
+    outline:none;
+    resize: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+}
+ul,li {
+    list-style-type:none;;
+}
+input[type="checkbox"] {
+    display: none;
+}
+input[type="radio"] {
+    display: none;
+}
+select {
+    background-color:transparent;
+    border-color:transparent;
+    -webkit-appearance: none;
+}
